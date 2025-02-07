@@ -1,0 +1,18 @@
+@media screen and (min-width: 1024px) {
+    .landing>.discover {
+        text-align: center;
+    }
+
+    .landing>.discover>div>.code {
+        margin-right: auto !important;
+        margin-left: auto !important;
+    }
+
+    .landing>.discover>div>.portfolio-button {
+        margin-top: 30px;
+    }
+
+    .discover>.col {
+        margin: 0 auto !important;
+    }
+}

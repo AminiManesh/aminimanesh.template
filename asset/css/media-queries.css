@@ -1,0 +1,145 @@
+@media screen and (min-width: 1400px) {
+    .landing > .discover > div > h2,
+    .landing > .discover > div > h1 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        height: calc(100% - 5px) !important;
+        padding: 10px 0 5px 0;
+    }
+
+    .general-container {
+        display: flex;
+        justify-content: space-between;
+        width: calc(100% - 20px);
+    }
+
+    .main-section {
+        width: calc(100% - 410px);
+        margin-top: 0;
+        height: 100%;
+    }
+
+
+    .landing>.discover {
+        text-align: right;
+    }
+    .landing>.discover::after {
+        background: linear-gradient(-90deg,
+            rgba(45, 45, 58, .9) 15%,
+            rgba(45, 45, 58, .7) 50%,
+            rgba(43, 43, 53, .7) 100%);
+    }
+
+    .landing>.discover>div>.code {
+        margin-right: 0 !important;
+        margin-left: auto !important;
+    }
+
+    .landing>.discover>div>.portfolio-button {
+        margin-top: 30px;
+    }
+
+    .discover>.col {
+        margin: 0;
+    }
+
+    .main-menu {
+        position: relative;
+        width: 90px;
+        min-width: 90px;
+        height: 100% !important;
+    }
+
+    .main-menu.opened {
+        width: 300px;
+    }
+
+    .main-menu>.menu-open {
+        width: 100%;
+        height: 90px !important;
+        margin-right: 0;
+    }
+
+    .main-menu>.page-title {
+        transform: none;
+        transform: translateX(50%) rotate(-90deg);
+        top: 160px;
+        right: 45px;
+    }
+
+    .main-menu>nav {
+        top: 50%;
+        left: auto;
+        right: 0;
+        transform: translateY(-50%);
+        width: 100%;
+        min-width: 300px;
+        padding-top: 0;
+        height: fit-content;
+    }
+
+    .main-menu>nav>ul {
+        height: 100%;
+    }
+
+    .sidebar {
+        z-index: 9;
+        right: 0;
+    }
+
+    .sidebar.opened {
+        right: 0;
+    }
+
+    .open-sidebar {
+        display: none !important;
+    }
+
+    .sidebar>.sidebar-body {
+        padding: 320px 30px 60px 30px;
+    }
+
+    .sidebar>footer {
+        top: auto;
+        bottom: 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .main-section-heading {
+        text-align: right;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .landing > .discover > div > h1,
+    .landing > .discover > div > h2 {
+        font-size: 44px;
+    }
+
+    .main-footer {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 20px;
+        text-align: unset;
+    }
+}
+
+@media (hover: hover) {
+    .work {
+        overflow: hidden;
+    }
+
+    .work>.work-body {
+        position: absolute;
+        left: 0;
+    }
+
+    .work:hover>.work-body {
+        bottom: 0 !important;
+    }
+}

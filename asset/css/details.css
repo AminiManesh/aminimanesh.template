@@ -1,0 +1,24 @@
+.work-stats {
+    margin-top: 50px !important;
+    margin-bottom: 30px;
+}
+
+.landing>.discover {
+    background: center / cover no-repeat url('/asset/img/discover2.jpg');
+}
+
+.landing>.discover::after {
+    background: linear-gradient(-180deg,
+            rgba(45, 45, 58, .9) 15%,
+            rgba(45, 45, 58, .8) 50%,
+            rgba(43, 43, 53, .7) 100%) !important;
+}
+
+.discover>.col {
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.landing>.discover::before {
+    display: none;
+}
